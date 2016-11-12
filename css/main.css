@@ -107,12 +107,14 @@ div.col-9 {
 .col-12 {
     width: 100%;
 }
-article.col-12 img{
-    background-image: url(../image/code2.png);
+article{
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
     background-attachment: fixed;
+}
+.bgimg{
+    background:url(../image/code2.png);
 }
 
 footer{
