@@ -6,6 +6,7 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-text-size-adjust: none;
+    background-attachment: fixed;
 }
 
 *{
@@ -106,7 +107,8 @@ div.col-9 {
 .col-12 {
     width: 100%;
 }
-.col-12 img{
+article.col-12 img{
+    background-image: url(../image/code2.png);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
