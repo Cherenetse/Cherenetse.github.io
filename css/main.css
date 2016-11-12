@@ -110,6 +110,16 @@ div.col-9 {
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: #42c2f4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: all;
+    text-align: center;
+    text-decoration: none;
 }
 
 @media  (max-width: 450px){
