@@ -467,7 +467,7 @@ ul#nav li.current a { color: #F06000; }
    background: url(../images/overlay-bg.png) repeat;
 }
 .portfolio-item .item-wrap .link-icon {
-   display: inline-block;
+   display: block;
    color: #fff;
    height: 30px;
    width: 30px;
@@ -492,6 +492,8 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   display: flex;
+   flex-wrap: wrap;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
