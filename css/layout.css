@@ -449,7 +449,7 @@ ul#nav li.current a { color: #F06000; }
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
-   position: float;
+   position: absolute;
    left: 0;
    top: 0;
    width: 150%;
@@ -467,7 +467,7 @@ ul#nav li.current a { color: #F06000; }
    background: url(../images/overlay-bg.png) repeat;
 }
 .portfolio-item .item-wrap .link-icon {
-   display: block;
+   display: inline-block;
    color: #fff;
    height: 30px;
    width: 30px;
