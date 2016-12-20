@@ -434,7 +434,7 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
-   position: relative;
+   position: absolute;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -448,7 +448,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* overlay */
-/*.portfolio-item .item-wrap .overlay {
+.portfolio-item .item-wrap .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -502,7 +502,7 @@ ul#nav li.current a { color: #F06000; }
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
-}*/
+}
 
 /* on hover */
 .portfolio-item:hover .overlay {
