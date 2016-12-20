@@ -434,7 +434,7 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
-   position: static;
+   position: relative;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -443,7 +443,7 @@ ul#nav li.current a { color: #F06000; }
 	transition: all 0.3s ease-in-out;
 }
 .portfolio-item .item-wrap a {
-   display: block;
+   display: inline-block;
    cursor: pointer;
 }
 
@@ -491,7 +491,7 @@ ul#nav li.current a { color: #F06000; }
    margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
-   vertical-align: bottom;
+   vertical-align: top;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
