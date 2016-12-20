@@ -443,13 +443,13 @@ ul#nav li.current a { color: #F06000; }
 	transition: all 0.3s ease-in-out;
 }
 .portfolio-item .item-wrap a {
-   display: inline-block;
+   display: block;
    cursor: pointer;
 }
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
-   position: absolute;
+   position:relative;
    left: 0;
    top: 0;
    width: 150%;
@@ -491,7 +491,7 @@ ul#nav li.current a { color: #F06000; }
    margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
-   vertical-align: top;
+   vertical-align: bottom;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
